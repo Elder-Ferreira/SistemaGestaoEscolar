@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CamadaDados;
+using CamadaEntidade;
 
-namespace EspelhoEntidades
+
+
+namespace CamadaNegocio
 {
-    public class Class1
+    public class ClasseNegocio
     {
     }
 }
