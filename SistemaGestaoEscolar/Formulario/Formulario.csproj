@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{08234418-1433-4BD2-BE7B-39A3661A3CAA}</ProjectGuid>
+    <ProjectGuid>{477ED39B-FB8E-475F-9CD8-336ADF49314F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Formularios</RootNamespace>
-    <AssemblyName>Formularios</AssemblyName>
+    <RootNamespace>Formulario</RootNamespace>
+    <AssemblyName>Formulario</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,17 +52,8 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormularioPrincipal.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormularioPrincipal.Designer.cs">
-      <DependentUpon>FormularioPrincipal.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -84,16 +75,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\EspelhoEntidades\CamadaEntidade.csproj">
-      <Project>{43527450-077e-4268-8ded-dfae90471887}</Project>
-      <Name>CamadaEntidade</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EspelhoNegocios\CamadaNegocio.csproj">
-      <Project>{11b019f4-82d9-4009-984a-fb01ca9f95ed}</Project>
-      <Name>CamadaNegocio</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

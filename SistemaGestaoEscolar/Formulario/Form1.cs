@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Formularios
+namespace Formulario
 {
-    public partial class FormularioPrincipal : Form
+    public partial class Form1 : Form
     {
-        public FormularioPrincipal()
+        public Form1()
         {
             InitializeComponent();
         }
